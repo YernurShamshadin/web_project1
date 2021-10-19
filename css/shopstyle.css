@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+/*--------------------------HEADER------------------------------*/
+header{
+	display: flex;
+ 	background: #0045c0;
+ 	justify-content: space-between;
+}
+.header_left{
+	display: flex;
+	padding: 10px;
+	padding-left: 20px;
+}
+.burgerbut{
+	background:	#0045c0;
+}
+.homebut{
+	display: flex;
+	background:	#0045c0;
+	margin: 10px 20px 0px 20px;
+}
+.logoimg{
+	height: 60px;
+}
+.header_right{
+	display: flex;
+	padding: 10px;
+}
+.searchbut{
+	background:	#0045c0;
+	margin: 0px 20px;
+}
+.basketbut{
+	margin: 0px 20px;
+	background:	#0045c0;
+}
+.qazrep{
+	border-left: 3px solid white;
+	padding-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+
+
+/*--------------------------content------------------------------*/
+
+.content{
+	padding: 40px;
+}
+.nameblock{
+	padding: 30px 0px 30px 150px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	color: #0045c0;
+}
+.rowblock{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #0045c0;
+}
+.cardblock{
+	text-align: center;
+}
+.shopimg{
+	height: 300px;
+}
+.coastel{
+	font-size: 15px;
+}
+
+
+/*--------------------------footer--------------------------------*/
+footer{
+	background: #0045c0;
+	height: 400px;
+	padding: 100px 150px 0px 150px;
+}
+.emailinpt{
+	font-size: 20px;
+	font-style: bold;
+	font-family: 'Roboto', sans-serif;
+	color: 	white;
+	width: 400px;
+}
+.form-check{
+	padding: 10px;
+}
+.form-check-label{
+	font-size: 10px;
+}
+.footermenu{
+	margin-top: 50px;
+	font-size: 15px;
+	font-style: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.footermenu a{
+	color: white;
+}

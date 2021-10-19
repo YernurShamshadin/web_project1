@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: red;
+}
+
+/*--------------------------HEADER------------------------------*/
+header{
+	display: flex;
+ 	background: #0045c0;
+ 	justify-content: space-between;
+}
+.header_left{
+	display: flex;
+	padding: 10px;
+	padding-left: 20px;
+}
+.burgerbut{
+	background:	#0045c0;
+}
+.homebut{
+	display: flex;
+	background:	#0045c0;
+	margin: 10px 20px 0px 20px;
+}
+.logoimg{
+	height: 60px;
+}
+.header_right{
+	display: flex;
+	padding: 10px;
+}
+.searchbut{
+	background:	#0045c0;
+	margin: 0px 20px;
+}
+.basketbut{
+	margin: 0px 20px;
+	background:	#0045c0;
+}
+.qazrep{
+	border-left: 3px solid white;
+	padding-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	color: white;
+}
+/*--------------------------content------------------------------*/
+main{ 
+}
+.mainken{
+	display: flex;
+}
+.carousel{
+	width: 490px;
+}
+.kenjeide{
+	padding: 40px;
+}
+.infoabout{
+	padding: 120px 40px 40px 40px;
+	display: flex;
+	flex-direction: column;
+
+	font-family: 'Roboto', sans-serif;
+	color: #0045c0;
+}
+.texth{
+	font-size: 40px;
+}
+.coast{
+	font-size: 25px;
+	color: #003aa2;
+	margin: 5px 0px;
+}
+.buttoncolour{
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	width: 100px;
+}
+.textcolour{
+	font-size: 20px;
+}
+.butselectcolf{
+ 	display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    border: .1rem solid black;
+    background-color: #e7dac7;
+    background-size: cover;
+    background-position: 50%;
+    transform-origin: center;
+    z-index: 1;
+}
+.butselectcols{
+ 	display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    border: .1rem solid black;
+    background-color: #3f6d8f;
+    background-size: cover;
+    background-position: 50%;
+    transform-origin: center;
+    z-index: 1;
+}
+.butselectcolt{
+ 	display: block;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 100%;
+    border: .1rem solid black;
+    background-color: #8f84c0;
+    background-size: cover;
+    background-position: 50%;
+    transform-origin: center;
+    z-index: 1;
+}
+.sizes {
+	font-size: 20px;
+}
+.addtobasket{
+	margin-top: 20px;
+}
+
+/*--------------------------footer--------------------------------*/
+footer{
+	background: #0045c0;
+	height: 400px;
+	padding: 100px 150px 0px 150px;
+}
+.emailinpt{
+	font-size: 20px;
+	font-style: bold;
+	font-family: 'Roboto', sans-serif;
+	color: 	white;
+	width: 400px;
+}
+.form-check{
+	padding: 10px;
+}
+.form-check-label{
+	font-size: 10px;
+}
+.footermenu{
+	margin-top: 50px;
+	font-size: 15px;
+	font-style: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.footermenu a{
+	color: white;
+}
